@@ -1145,6 +1145,262 @@ footer .tixit h3 {
   transform: scale(1.1);
 }
 
+.HeroSection .HeroSection-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.HeroSection .HeroSection-all span {
+  color: red;
+}
+.HeroSection .HeroSection-all .hiro {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 40px 0;
+}
+.HeroSection .HeroSection-all .hiro .HeroSection-list a {
+  color: gray;
+}
+.HeroSection .HeroSection-all .hiro .HeroSection-list .box {
+  color: black;
+}
+.HeroSection .hammasi {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.HeroSection .hammasi .hammasi-all {
+  max-width: 300px;
+  width: 100%;
+}
+.HeroSection .hammasi .hammasi-all h2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.HeroSection .hammasi .hammasi-all .hammasi-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.HeroSection .hammasi .hammasi-all .hammasi-row .hammasi-ol1 p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: gray;
+  margin-left: -10%;
+}
+.HeroSection .hammasi .hammasi-all .hammasi-row .hammasi-ol span {
+  color: red;
+}
+.HeroSection .hammasi .hammasi-all .hammasi-row .hammasi-ol p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: gray;
+}
+.HeroSection .hammasi .input-hammasi {
+  max-width: 870px;
+  width: 100%;
+  height: 680px;
+  top: 323px;
+  left: 435px;
+  gap: 0px;
+  border-radius: 4px;
+  opacity: 0px;
+  box-shadow: 0px 0px 5px 0.1px gray;
+  padding: 40px 80px;
+}
+.HeroSection .hammasi .input-hammasi .input-all .box1 {
+  color: red;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+.HeroSection .hammasi .input-hammasi .input-all .alt1 {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+.HeroSection .hammasi .input-hammasi .input-all .alt1 .alt2 span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+}
+.HeroSection .hammasi .input-hammasi .input-all .alt1 .alt3 input {
+  width: 140%;
+  height: 50px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #F5F5F5;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+.HeroSection .hammasi .input-hammasi .input-all h2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift {
+  max-width: 565px;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift .lift-rigth {
+  display: flex;
+  align-items: center;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift .lift-rigth input {
+  outline: none;
+  border: none;
+  background-color: #F5F5F5;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift .lift-rigth ::-moz-placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift .lift-rigth ::placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift1 {
+  max-width: 565px;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift1 .lift-rigth {
+  display: flex;
+  align-items: center;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift1 .lift-rigth input {
+  outline: none;
+  border: none;
+  background-color: #F5F5F5;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift1 .lift-rigth ::-moz-placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift1 .lift-rigth ::placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift2 {
+  max-width: 565px;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift2 .lift-rigth {
+  display: flex;
+  align-items: center;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift2 .lift-rigth input {
+  outline: none;
+  border: none;
+  background-color: #F5F5F5;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift2 .lift-rigth ::-moz-placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.HeroSection .hammasi .input-hammasi .input-all .lift2 .lift-rigth ::placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.HeroSection .hammasi .input-hammasi .input-all .bottom-top {
+  display: flex;
+  align-items: center;
+  margin-left: 35%;
+  padding: 40px 0;
+  gap: 30px;
+}
+.HeroSection .hammasi .input-hammasi .input-all .bottom-top .bottom-top-all {
+  padding: 8px 24px;
+  background-color: #DB4444;
+  color: white;
+  border-radius: 8px;
+  transition: all 0.2s linear;
+}
+.HeroSection .hammasi .input-hammasi .input-all .bottom-top .bottom-top-all:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 0px 2px #DB4444;
+}
+.HeroSection .hammasi .input-hammasi .input-all .bottom-top .bottom-top-all1 {
+  padding: 8px 24px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  transition: all 0.2s linear;
+  box-shadow: 3px 3px 0px 3px #DB4444;
+}
+.HeroSection .hammasi .input-hammasi .input-all .bottom-top .bottom-top-all1:hover {
+  background-color: #DB4444;
+  color: white;
+  transform: scale(1.1);
+}
+
 @media (max-width: 990px) {
   .navbar-bottom {
     margin-left: -35%;
@@ -1164,7 +1420,7 @@ footer .tixit h3 {
   }
   header .menu {
     display: block;
-    margin-left: 50%;
+    margin-left: 45%;
   }
   header .nav-list {
     position: absolute;
@@ -1261,6 +1517,29 @@ footer .tixit h3 {
     flex-wrap: wrap;
     padding: 40px 0;
   }
+  .HeroSection .HeroSection-all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .HeroSection .hammasi .input-hammasi {
+    max-width: 700px;
+    width: 100%;
+    height: 680px;
+  }
+  .HeroSection .hammasi .input-hammasi .input-all .alt1 .alt3 input {
+    width: 120%;
+    height: 50px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+  }
 }
 @media (max-width: 700px) {
   header .navbar .menu {
@@ -1329,6 +1608,37 @@ footer .tixit h3 {
     max-width: 809px;
     width: 100%;
     height: 506px;
+  }
+  .HeroSection .HeroSection-all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .HeroSection .hammasi .input-hammasi {
+    max-width: 640px;
+    width: 100%;
+    height: 680px;
+  }
+  .HeroSection .hammasi .input-hammasi .input-all .alt1 {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  .HeroSection .hammasi .input-hammasi .input-all .alt1 .alt3 input {
+    width: 120%;
+    height: 50px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
   }
 }
 @media (max-width: 400px) {
@@ -1547,5 +1857,77 @@ footer .tixit h3 {
     max-width: 359px;
     width: 100%;
     height: 350px;
+  }
+  .HeroSection .HeroSection-all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .HeroSection .hammasi .input-hammasi {
+    max-width: 350px;
+    margin: 0 auto;
+    width: 100%;
+    height: 1100px;
+  }
+  .HeroSection .hammasi .input-hammasi .input-all .alt1 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  .HeroSection .hammasi .input-hammasi .input-all .alt1 .alt3 input {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+  }
+  .HeroSection .hammasi .input-hammasi .bottom-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    gap: 30px;
+  }
+  .HeroSection .hammasi .input-hammasi .bottom-top .bottom-top-all {
+    padding: 8px 24px;
+    background-color: #DB4444;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.2s linear;
+    margin-left: -80%;
+  }
+  .HeroSection .hammasi .input-hammasi .bottom-top .bottom-top-all:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 0px 2px #DB4444;
+  }
+  .HeroSection .hammasi .input-hammasi .bottom-top .bottom-top-all1 {
+    padding: 8px 56px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    transition: all 0.2s linear;
+    margin-left: -80%;
+    box-shadow: 3px 3px 0px 3px #DB4444;
+  }
+  .HeroSection .hammasi .input-hammasi .bottom-top .bottom-top-all1 p {
+    width: 140px;
+    text-align: center;
+  }
+  .HeroSection .hammasi .input-hammasi .bottom-top .bottom-top-all1:hover {
+    background-color: #DB4444;
+    color: white;
+    transform: scale(1.1);
   }
 }/*# sourceMappingURL=style.css.map */

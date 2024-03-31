@@ -204,15 +204,15 @@ header .menu {
   padding: 0px 40px;
 }
 
-.card {
+.card-nav {
   padding: 80px 0;
 }
-.card .card-all {
+.card-nav .card-all {
   display: flex;
   gap: 50px;
   align-items: center;
 }
-.card .card-all .card-list h1 {
+.card-nav .card-all .card-list h1 {
   font-family: Poppins;
   font-size: 24px;
   font-weight: 600;
@@ -220,7 +220,7 @@ header .menu {
   text-align: left;
   color: red;
 }
-.card .card-lift {
+.card-nav .card-lift {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -229,7 +229,7 @@ header .menu {
   gap: 772px;
   flex-wrap: wrap;
 }
-.card h1 {
+.card-nav h1 {
   font-family: Inter;
   font-size: 36px;
   font-weight: 600;
@@ -237,7 +237,7 @@ header .menu {
   letter-spacing: 0.04em;
   text-align: left;
 }
-.card .column {
+.card-nav .column-all1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,7 +247,7 @@ header .menu {
   border: 1px 0px 0px 0px;
   opacity: 0px;
 }
-.card .column .column-all {
+.card-nav .column-all1 .column-all {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,16 +258,16 @@ header .menu {
   border: 1px solid gray;
   border-radius: 4px 0px 0px 0px;
 }
-.card .column .column-all p {
+.card-nav .column-all1 .column-all p {
   margin-top: 10px;
 }
-.card .column .column-all:hover {
+.card-nav .column-all1 .column-all:hover {
   background-color: #DB4444;
 }
-.card .column .column-all:hover svg {
+.card-nav .column-all1 .column-all:hover svg {
   fill: white;
 }
-.card .column .column-all:hover p {
+.card-nav .column-all1 .column-all:hover p {
   color: white;
 }
 
@@ -1016,6 +1016,135 @@ footer .tixit h3 {
   align-items: center;
 }
 
+.column .column-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 210px;
+  padding: 60px 0;
+}
+.column .column-all .column-hammasi img {
+  max-width: 909px;
+  width: 100%;
+  height: 606px;
+}
+.column .column-all .column-hammasi .all {
+  max-width: 401px;
+  height: 326px;
+  width: 100%;
+}
+.column .column-all .column-hammasi .all .tixit {
+  max-width: 400px;
+  height: 326px;
+  width: 100%;
+}
+.column .column-all .column-hammasi .all .tixit h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+.column .column-all .column-hammasi .all .tixit p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 20px 0;
+}
+.column .column-all .column-hammasi .all .tixit form .input {
+  max-width: 370px;
+  width: 100%;
+  height: 32px;
+  gap: 8px;
+  opacity: 0px;
+  border-bottom: 1px solid gray;
+}
+.column .column-all .column-hammasi .all .tixit form .input input {
+  outline: none;
+  border: none;
+  max-width: 370px;
+  width: 100%;
+}
+.column .column-all .column-hammasi .all .tixit form .input ::-moz-placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.column .column-all .column-hammasi .all .tixit form .input ::placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.column .column-all .column-hammasi .all .tixit form .input1 {
+  max-width: 370px;
+  width: 100%;
+  height: 32px;
+  gap: 8px;
+  opacity: 0px;
+  border-bottom: 1px solid gray;
+  margin-top: 10%;
+}
+.column .column-all .column-hammasi .all .tixit form .input1 input {
+  outline: none;
+  border: none;
+  max-width: 370px;
+  width: 100%;
+}
+.column .column-all .column-hammasi .all .tixit form .input1 ::-moz-placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.column .column-all .column-hammasi .all .tixit form .input1 ::placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.column .column-all .column-hammasi .bottom-top {
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  gap: 30px;
+}
+.column .column-all .column-hammasi .bottom-top .bottom-top-all {
+  padding: 0px 24px;
+  background-color: #DB4444;
+  color: white;
+  border-radius: 8px;
+  transition: all 0.2s linear;
+}
+.column .column-all .column-hammasi .bottom-top .bottom-top-all:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 3px 3px 0px 3px #DB4444;
+}
+.column .column-all .column-hammasi .bottom-top .bottom-top-all1 {
+  padding: 0px 24px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  transition: all 0.2s linear;
+  box-shadow: 3px 3px 0px 3px #DB4444;
+}
+.column .column-all .column-hammasi .bottom-top .bottom-top-all1:hover {
+  background-color: #DB4444;
+  color: white;
+  transform: scale(1.1);
+}
+
 @media (max-width: 990px) {
   .navbar-bottom {
     margin-left: -35%;
@@ -1187,6 +1316,19 @@ footer .tixit h3 {
     width: 100%;
     height: 1px;
     background-color: gray;
+  }
+  .column .column-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 60px 0;
+  }
+  .column .column-all .column-hammasi img {
+    max-width: 809px;
+    width: 100%;
+    height: 506px;
   }
 }
 @media (max-width: 400px) {
@@ -1392,5 +1534,18 @@ footer .tixit h3 {
   }
   .hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav .hiro-list {
     padding: 0px 5px;
+  }
+  .column .column-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 60px 0;
+  }
+  .column .column-all .column-hammasi img {
+    max-width: 359px;
+    width: 100%;
+    height: 350px;
   }
 }/*# sourceMappingURL=style.css.map */

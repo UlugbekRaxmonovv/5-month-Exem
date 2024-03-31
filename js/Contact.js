@@ -28,7 +28,7 @@ function creadtData(data){
             <img src="../img/img.png" alt="">
         </div>
         <div class="img">
-            <img src="${data.images[https]}" alt="">
+            <img src="../img/img.png" alt="">
         </div>
 
         <div class="img">
@@ -84,7 +84,7 @@ function creadtData(data){
 
         <div class="kontainir">
             <div class="kontainir-all">
-                <img src="../img/kon.png" alt="">
+                <img src="../img/frami.png" alt="">
             </div>
             <div class="kontainir-all">
                 <div class="pr-2">

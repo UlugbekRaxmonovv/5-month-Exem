@@ -209,7 +209,7 @@ header .menu {
 }
 .card .card-all {
   display: flex;
-  gap: 10px;
+  gap: 50px;
   align-items: center;
 }
 .card .card-all .card-list h1 {
@@ -340,8 +340,7 @@ header .menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: center;
-  gap: 20px;
+  gap: 90px;
 }
 .all .Creatcard {
   max-width: 270px;
@@ -835,7 +834,6 @@ footer .tixit h3 {
   display: flex;
   align-items: center;
   gap: 80px;
-  flex-wrap: wrap;
 }
 .hammasi-nav .hammasi-nav-link .imgi {
   max-width: 500px;
@@ -1170,7 +1168,7 @@ footer .tixit h3 {
   .hammasi-nav .hammasi-nav-link .column .imgagi .hiro {
     max-width: 500px;
     width: 100%;
-    height: 100px;
+    height: 170px;
     border-radius: 4px 0px 0px 0px;
     border: 1px solid gray;
     opacity: 0px;
@@ -1181,6 +1179,9 @@ footer .tixit h3 {
     justify-content: center;
     align-items: center;
     gap: 30px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav .hiro-list {
+    padding: 15px 5px;
   }
   .hammasi-nav .hammasi-nav-link .column .imgagi .hiro .two {
     width: 100%;
@@ -1388,5 +1389,8 @@ footer .tixit h3 {
     justify-content: center;
     align-items: center;
     gap: 10px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav .hiro-list {
+    padding: 0px 5px;
   }
 }/*# sourceMappingURL=style.css.map */

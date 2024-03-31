@@ -28,7 +28,7 @@ function creadtData(data){
             <img src="../img/img.png" alt="">
         </div>
         <div class="img">
-            <img src="../img/img.png" alt="">
+            <img src="${data.images[https]}" alt="">
         </div>
 
         <div class="img">

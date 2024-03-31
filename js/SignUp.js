@@ -4,3 +4,13 @@ const Menu = document.querySelector(".menu")
 Menu.addEventListener("click", ()=>{
     navbar.classList.toggle('show')
 })
+
+let isLogin = localStorage.getItem('token')
+
+function submit(){
+    if( !isLogin ){
+        window.location.reload("/pages/About.html")
+    }
+
+}
+submit()

@@ -143,6 +143,75 @@ header .menu {
   display: none;
 }
 
+.loadingg {
+  max-width: 270px;
+  height: 270px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+.text {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+#backtop {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+  color: #333;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: -50px;
+  cursor: pointer;
+  z-index: 99;
+  transition: 0.6s;
+  right: 10px;
+  /* margin-left:23%; */
+}
+
+.array .Arr {
+  text-align: center;
+  display: none;
+  height: 100vh;
+  background-color: white;
+}
+.array .Arr img {
+  max-width: 600px;
+  width: 100%;
+}
+.array .Arr img h1 {
+  font-size: 100px;
+}
+.array .Arr img h6 {
+  font-size: 40px;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+  .loading {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+}
+
 .main-All {
   padding: 20px 0;
   background-color: #000000;
@@ -358,16 +427,16 @@ header .menu {
 .all .Creatcard-all {
   display: flex;
   flex-direction: column;
-  gap: 120px;
+  gap: 130px;
 }
 .all .Creatcard-all .img {
-  max-width: 150px;
+  max-width: 180px;
   width: 100%;
   height: 180px;
   opacity: 0px;
 }
 .all .Creatcard-all .all {
-  margin-top: -305%;
+  margin-top: -350%;
   margin-left: 14%;
 }
 
@@ -413,6 +482,15 @@ header .menu {
   align-items: center;
   color: white;
   border-radius: 4px;
+}
+
+.h1 {
+  display: none;
+  color: red;
+  font-size: 20px;
+  position: absolute;
+  top: 58%;
+  left: 69.5%;
 }
 
 .column-All {
@@ -827,7 +905,7 @@ footer .tixit h3 {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .hammasi-nav .hammasi-nav-link {
@@ -835,9 +913,14 @@ footer .tixit h3 {
   align-items: center;
   gap: 80px;
 }
+.hammasi-nav .hammasi-nav-link .hammasi-nav-itim .img img {
+  max-width: 134px;
+  width: 100%;
+  height: 94px;
+}
 .hammasi-nav .hammasi-nav-link .imgi {
   max-width: 500px;
-  height: 600px;
+  height: 610px;
   width: 100%;
   border-radius: 4px 0px 0px 0px;
   opacity: 0px;
@@ -862,14 +945,23 @@ footer .tixit h3 {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
+  margin-top: -9%;
 }
-.hammasi-nav .hammasi-nav-link .column .imgagi .all {
+.hammasi-nav .hammasi-nav-link .column .imgagi .all3 {
+  max-width: 350px;
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding: 10px 0px;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px;
 }
-.hammasi-nav .hammasi-nav-link .column .imgagi .all .all1 .box {
+.hammasi-nav .hammasi-nav-link .column .imgagi .all3 .all1 p {
+  font-size: 20px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .all3 .all1 .box {
   color: #DB4444;
+  font-size: 20px;
 }
 .hammasi-nav .hammasi-nav-link .column .imgagi p {
   font-family: Inter;
@@ -972,7 +1064,7 @@ footer .tixit h3 {
   padding: 0 10px;
 }
 .hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav .hiro-list {
-  padding: 15px 5px;
+  padding: 25px 5px;
 }
 .hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav .hiro-list img {
   width: 40px;
@@ -1118,28 +1210,30 @@ footer .tixit h3 {
   padding: 40px 0;
   gap: 30px;
 }
-.column .column-all .column-hammasi .bottom-top .bottom-top-all {
-  padding: 0px 24px;
+.column .column-all .column-hammasi .bottom-top .bottom-top-all button {
+  padding: 8px 24px;
   background-color: #DB4444;
   color: white;
   border-radius: 8px;
   transition: all 0.2s linear;
+  border: none;
 }
-.column .column-all .column-hammasi .bottom-top .bottom-top-all:hover {
+.column .column-all .column-hammasi .bottom-top .bottom-top-all button:hover {
   background-color: white;
   color: black;
   transform: scale(1.1);
-  box-shadow: 3px 3px 0px 3px #DB4444;
+  box-shadow: 3px 3px 0px 1px #DB4444;
 }
-.column .column-all .column-hammasi .bottom-top .bottom-top-all1 {
-  padding: 0px 24px;
+.column .column-all .column-hammasi .bottom-top .bottom-top-all1 button {
+  padding: 8px 24px;
+  border: none;
   background-color: white;
   color: black;
   border-radius: 8px;
   transition: all 0.2s linear;
-  box-shadow: 3px 3px 0px 3px #DB4444;
+  box-shadow: 3px 3px 0px 1px #DB4444;
 }
-.column .column-all .column-hammasi .bottom-top .bottom-top-all1:hover {
+.column .column-all .column-hammasi .bottom-top .bottom-top-all1 button:hover {
   background-color: #DB4444;
   color: white;
   transform: scale(1.1);

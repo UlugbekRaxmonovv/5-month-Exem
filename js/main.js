@@ -7,9 +7,30 @@ Menu.addEventListener("click", ()=>{
 })
 
 
+
+// backtop///////
+
+window.addEventListener('scroll', function () {
+    toggleBacktop();
+  });
+  
+  let backtop = document.getElementById('backtop');
+  
+  function toggleBacktop() {
+    if (
+      document.body.scrollTop > 100 ||
+      document.documentElement.scrollTop > 200
+    ) {
+      backtop.style.bottom = '20px';
+    } else {
+      backtop.style.bottom = '-50px';
+    }
+  }
+
 /////////////Api ///////////////
 const Creat =document.querySelector('.all')
-const loading =document.querySelector('.all1')
+const loading =document.querySelector('.loading')
+
 const Api_Url = 'https://dummyjson.com/products'
 
 async function good(api){
@@ -19,7 +40,7 @@ async function good(api){
     .then(ris=> card(ris))
     .catch(arr => console.log(arr))
     .finally(()=>{
-        loader.style.display = "none"  
+        loading.style.display = "none"  
     })
 }
 good(Api_Url)

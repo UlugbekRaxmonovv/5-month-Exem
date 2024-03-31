@@ -4,6 +4,7 @@ const Menu = document.querySelector(".menu")
 Menu.addEventListener("click", ()=>{
     navbar.classList.toggle('show')
 })
+const loading = document.querySelector('.Arr')
 const Api_Url = 'https://dummyjson.com/products';
 const hammasi =document.querySelector('.hammasi-nav')
 async function fitDate(api){
@@ -13,7 +14,12 @@ async function fitDate(api){
     gitDate
     .json()
     .then(ris  => creadtData(ris))
-    .catch(arr =>console.log( arr))
+    .catch(arr =>{
+        console.log(arr)
+        loading.style.display = 'block'
+    })
+    // .finally(()=>{
+    // })
 
 }
 fitDate(Api_Url)
@@ -25,17 +31,17 @@ function creadtData(data){
 <div class="hammasi-nav-link">
     <div class="hammasi-nav-itim">
         <div class="img">
-            <img src="../img/img.png" alt="">
+            <img src="${data.images[0]}" alt="">
         </div>
         <div class="img">
-            <img src="../img/img.png" alt="">
+            <img src="${data.images[1]}" alt="">
         </div>
 
         <div class="img">
-            <img src="../img/img.png" alt="">
+            <img src="${data.images[2]}" alt="">
         </div>
         <div class="img">
-            <img src="../img/img.png" alt="">
+            <img src="${data.images[3]}" alt="">
         </div>
     </div>
 
@@ -45,10 +51,16 @@ function creadtData(data){
    <div class="column">
     <div class="imgagi">
         <h1>Havic HV G-92 Gamepad</h1>
-        <div class="all">
-         <div class="all1">
-             <img src="../img/yuluz.png" alt="">
-         </div>
+        <div class="all3">
+        <div class="all1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(220, 226, 42)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>
+    </div>
+    <div class="all1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(220, 226, 42)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>
+    </div>
+    <div class="all1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(220, 226, 42)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>
+    </div>
         
          <div class="all1">
              <p>(150 Reviews)</p>

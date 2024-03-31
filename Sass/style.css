@@ -824,6 +824,200 @@ footer .tixit h3 {
   line-height: 24px;
 }
 
+.column-list .column-list-all {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 80px;
+}
+
+.hammasi-nav .hammasi-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+.hammasi-nav .hammasi-nav-link .imgi {
+  max-width: 500px;
+  height: 600px;
+  width: 100%;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hammasi-nav .hammasi-nav-link .imgi img {
+  max-width: 400px;
+  width: 100%;
+  height: 315px;
+  top: 154px;
+  left: 27px;
+  gap: 0px;
+  opacity: 0px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi h1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .all {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .all .all1 .box {
+  color: #DB4444;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .pr-1 {
+  max-width: 373px;
+  width: 100%;
+  height: 63px;
+  padding: 10px 0;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .pr-1 p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .oni {
+  max-width: 373px;
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin-top: 20px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .logo .logo-itim {
+  display: flex;
+  align-items: center;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .logo .logo-itim img {
+  width: 30px;
+  height: 30px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi img {
+  max-width: 296px;
+  width: 100%;
+  height: 32px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .kontainir {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 10px 0;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .kontainir .kontainir-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .kontainir .kontainir-all .pr-2 {
+  padding: 4px 32px;
+  background-color: #DB4444;
+  border-radius: 4px;
+  color: white;
+  transition: all 0.2s linear;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .kontainir .kontainir-all .pr-2:hover {
+  background-color: #9e2323;
+  transform: scale(1.1);
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .kontainir .kontainir-all .pr-2 p {
+  font-size: 14px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .kontainir .kontainir-all .pr-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .kontainir .kontainir-all .pr-3 img {
+  width: 24px;
+  height: 24px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .hiro {
+  max-width: 500px;
+  width: 100%;
+  height: 180px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px solid gray;
+  opacity: 0px;
+  margin-top: 30px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0 10px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav .hiro-list {
+  padding: 0 5px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav .hiro-list img {
+  width: 40px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav .hiro-list h1 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav .hiro-list p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+}
+.hammasi-nav .hammasi-nav-link .column .imgagi .hiro .two {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+.hammasi-nav .hammasi-nav-link .hammasi-nav-itim {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px 0;
+}
+.hammasi-nav .hammasi-nav-link .hammasi-nav-itim .img {
+  max-width: 170px;
+  height: 138px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 990px) {
   .navbar-bottom {
     margin-left: -35%;
@@ -925,6 +1119,21 @@ footer .tixit h3 {
     flex-wrap: nowrap;
     gap: 15px;
   }
+  .column-list .column-list-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+  }
+  .hammasi-nav .hammasi-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
 }
 @media (max-width: 700px) {
   header .navbar .menu {
@@ -950,6 +1159,33 @@ footer .tixit h3 {
   }
   header .navbar .show {
     transform: scaleY(1);
+  }
+  .column-list .column-list-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .hiro {
+    max-width: 500px;
+    width: 100%;
+    height: 100px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px solid gray;
+    opacity: 0px;
+    margin-top: 30px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .hiro .two {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
   }
 }
 @media (max-width: 400px) {
@@ -1064,5 +1300,93 @@ footer .tixit h3 {
   }
   .column-All .column-All-list .column-All-itim .btn-1 {
     margin-left: 25%;
+  }
+  .column-list .column-list-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .hammasi-nav .hammasi-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .hammasi-nav .hammasi-nav-link .imgi {
+    max-width: 300px;
+    height: 400px;
+    width: 100%;
+  }
+  .hammasi-nav .hammasi-nav-link .imgi img {
+    max-width: 250px;
+    width: 100%;
+    height: 250px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi {
+    text-align: center;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi h1 {
+    text-align: center;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .all {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .all .all1 .box {
+    color: #DB4444;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi p {
+    text-align: center;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .pr-1 {
+    max-width: 373px;
+    width: 100%;
+    height: 63px;
+    padding: 10px 0;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .pr-1 p {
+    text-align: center;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .oni {
+    max-width: 400px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .logo {
+    justify-content: center;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .logo .logo-itim {
+    display: flex;
+    align-items: center;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .logo .logo-itim img {
+    width: 30px;
+    height: 30px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi img {
+    max-width: 296px;
+    width: 100%;
+    height: 32px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .kontainir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .hiro {
+    max-width: 360px;
+    margin: 0 auto;
+    width: 100%;
+    height: 140px;
+  }
+  .hammasi-nav .hammasi-nav-link .column .imgagi .hiro .hiro-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

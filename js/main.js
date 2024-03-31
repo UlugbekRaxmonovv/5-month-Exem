@@ -28,15 +28,16 @@ good(Api_Url)
 function card(son){
     let fragmit = document.createDocumentFragment()
     son.products.slice(0,8).forEach(el =>{
-        console.log(el);
+        // console.log(el);
         const card = document.createElement('div')
         card.classList.add('all-list')
         card.innerHTML = 
         `
-        <div class="all-list">
+        <div  data-id=${el.id}>
+        <div class="all-list" >
                 <div class="Creatcard">
                     <div class="Creatcard-all">
-                        <img class="img" src="${el.thumbnail}" alt="">
+                        <img name="product-image" class="img" src="${el.thumbnail}" alt="">
                        </div>
                        <div class="Creatcard-all">
                         <div class="all">
@@ -81,6 +82,7 @@ function card(son){
                 </div>
               </div>
             </div>
+            </div>
         
         `
         fragmit.appendChild(card)
@@ -88,3 +90,15 @@ function card(son){
     Creat.appendChild(fragmit)
 
 }
+
+const CreatAll=(id)=>{
+ window.open(`/pages/Contact.html?id=${id}`, "_self")
+
+}
+
+Creat.addEventListener('click', (e) =>{
+    if(e.target.name = 'product-image'){
+        let id = e.target.closest("[data-id]").dataset.id
+        CreatAll(id)
+    };
+})

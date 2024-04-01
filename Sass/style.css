@@ -1812,7 +1812,7 @@ footer .tixit h3 {
   }
   header .navbar .menu {
     display: block;
-    margin-left: -30%;
+    margin-left: -50%;
   }
   header .navbar .nav-list {
     position: absolute;
@@ -2082,8 +2082,9 @@ footer .tixit h3 {
   }
   .h1 p {
     color: rgb(206, 117, 117);
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
-    margin-left: -60%;
+    margin-left: -17%;
+    margin-top: -240px;
   }
 }/*# sourceMappingURL=style.css.map */

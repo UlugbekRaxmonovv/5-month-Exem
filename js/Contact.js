@@ -28,7 +28,7 @@ fitDate(Api_Url)
 function creadtData(data){
     hammasi.innerHTML =`
     <div class="container">
-<div class="hammasi-nav-link">
+<div class="hammasi-nav-link" >
     <div class="hammasi-nav-itim">
         <div class="img">
             <img src="${data.images[0]}" alt="">
@@ -96,7 +96,10 @@ function creadtData(data){
 
         <div class="kontainir">
             <div class="kontainir-all">
-                <img src="../img/frami.png" alt="">
+            <button name="btn"">go</button>
+            <h2 ><span name="box">0</span></h2>
+            <button ">go</button>
+            <button">qaytish</button>
             </div>
             <div class="kontainir-all">
                 <div class="pr-2">
@@ -140,3 +143,54 @@ function creadtData(data){
 </div>
     `
 }
+
+let javob =0
+hammasi.addEventListener('click',(e)=>{
+e.target.name = 'box';
+let son = e.target
+e.target.name = 'btn'
+let btn1 = e.target
+btn1.addEventListener('click',e =>{
+    if(javob > 33){
+      return javob
+    }
+    javob++
+    son.innerHTML = javob
+  })
+  
+})
+
+
+
+
+// let javob = 0
+// btn.addEventListener('click', e =>{
+//     if(javob >= 33){
+//         return javob
+//     }
+//      javob++;
+//      son.innerHTML = javob
+
+// })
+// function ins(){
+//     if(javob >=33){
+//        return javob
+//     }
+//     javob++;
+//     span.innerHTML = javob
+// }
+// function inss(){
+    
+//    if(javob > 0){
+//     javob--;
+//     span.innerHTML = javob
+    
+// }
+// span.innerHTML = javob
+// }
+//  function no(){
+//  javob = 0
+//   span.innerHTML = javob
+//  }
+ 
+

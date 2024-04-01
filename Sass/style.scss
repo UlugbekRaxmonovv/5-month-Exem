@@ -2182,6 +2182,11 @@ text-align: left;
 
 
 @media(max-width:400px){
+
+    .h1{
+        display: none;
+        text-align: center;
+    }
     .navbar-bottom{
         display: none;
         .navbar-bottom-list{

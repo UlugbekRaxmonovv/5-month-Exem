@@ -536,7 +536,9 @@ header .menu {
 
 .h1 {
   display: none;
-  color: red;
+}
+.h1 p {
+  color: rgb(206, 117, 117);
   font-size: 20px;
   position: absolute;
   top: 65%;
@@ -1545,6 +1547,12 @@ footer .tixit h3 {
   transform: scale(1.1);
 }
 
+.h1 {
+  display: none;
+  color: red;
+  font-size: 20px;
+}
+
 @media (max-width: 990px) {
   .navbar-bottom {
     margin-left: -35%;
@@ -1686,6 +1694,16 @@ footer .tixit h3 {
   }
 }
 @media (max-width: 700px) {
+  .h1 {
+    display: none;
+  }
+  .h1 p {
+    color: rgb(206, 117, 117);
+    font-size: 20px;
+    position: absolute;
+    top: 184%;
+    left: 27.5%;
+  }
   header .navbar .menu {
     display: block;
     margin-left: 40%;
@@ -2058,5 +2076,14 @@ footer .tixit h3 {
     justify-content: center;
     align-items: center;
     gap: 10px;
+  }
+  .h1 {
+    display: none;
+  }
+  .h1 p {
+    color: rgb(206, 117, 117);
+    font-size: 20px;
+    text-align: center;
+    margin-left: -60%;
   }
 }/*# sourceMappingURL=style.css.map */

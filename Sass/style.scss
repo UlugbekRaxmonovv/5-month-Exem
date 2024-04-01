@@ -620,14 +620,16 @@ color: white;
         }
     }
    
-.h1{
-    display: none;
-    color: red;
-    font-size: 20px;
-    position: absolute;
-    top: 65%;
-    left: 71.8%;
-}
+    .h1{
+        display: none;
+        p{
+            color: rgb(206, 117, 117);
+        font-size: 20px;
+        position: absolute;
+        top: 65%;
+        left: 71.8%;
+        }
+    }
     .column-All{
         padding: 80px 0;
         .column-All-list{
@@ -1808,6 +1810,14 @@ text-align: left;
 }
 
 
+.h1{
+    display: none;
+    color: red;
+    font-size: 20px;
+}
+
+
+
 
 
 
@@ -2014,14 +2024,6 @@ text-align: left;
                           
 }
 
-.h1{
-    display: none;
-    color: red;
-    font-size: 20px;
-    position: absolute;
-    top: 65%;
-    left: 71.8%;
-}
 
 
 
@@ -2035,6 +2037,18 @@ text-align: left;
   
 
 @media(max-width:700px){
+
+
+    .h1{
+        display: none;
+        p{
+            color: rgb(206, 117, 117);
+        font-size: 20px;
+        position: absolute;
+        top:  184%;
+        left: 27.5%;
+        }
+    }
     header{
         .navbar{
 
@@ -2191,13 +2205,6 @@ text-align: left;
 
 
 @media(max-width:400px){
-
-    .h1{
-        display: none;
-        color: red;
-        font-size: 20px;
-        text-align: center;
-    }
     .navbar-bottom{
         display: none;
         .navbar-bottom-list{
@@ -2563,6 +2570,18 @@ text-align: center;
             align-items: center;
             gap: 10px;
         }
+
+        .h1{
+            display: none;
+            p{
+                color: rgb(206, 117, 117);
+            font-size: 20px;
+            text-align: center;
+            margin-left: -60%;
+            }
+        }
+
+
 
 
 }

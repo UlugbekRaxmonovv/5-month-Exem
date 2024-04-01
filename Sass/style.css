@@ -2078,9 +2078,11 @@ footer .tixit h3 {
     gap: 10px;
   }
   .h1 {
+    position: fixed;
     display: none;
   }
   .h1 p {
+    position: fixed;
     color: rgb(206, 117, 117);
     font-size: 15px;
     text-align: center;

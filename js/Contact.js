@@ -34,19 +34,19 @@ function creadtData(data){
             <img src="${data.images[0]}" alt="">
         </div>
         <div class="img">
-            <img src="${data.images[1]}" alt="">
+            <img src="${data.images[1]}" alt="rasm yuqligi uchun">
         </div>
 
         <div class="img">
-            <img src="${data.images[2]}" alt="">
+            <img src="${data.images[2]}" alt="rasm yuqligi uchun">
         </div>
         <div class="img">
-            <img src="${data.images[3]}" alt="">
+            <img src="${data.images[3]}" alt="rasm yuqligi uchun">
         </div>
     </div>
 
     <div class="imgi">
-        <img src="${data.thumbnail}" alt="">
+        <img src="${data.thumbnail}" alt="rasm yuqligi uchun">
     </div>
    <div class="column">
     <div class="imgagi">

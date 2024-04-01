@@ -127,16 +127,16 @@ Creat.addEventListener('click', (e) =>{
 
 // chek-Admin
 
-const chekAdminAll =document.querySelector('.chek-Admin')
+const chekAdminAll =document.querySelector('.admin-link')
 function chekAdmin(){
     let isLogin = localStorage.getItem('token')
     if(isLogin){
-        chekAdminAll.innerHTML = 'Sign Up'
-        chekAdminAll.setAttribute('href', "./pages/SignUp.html")
+        chekAdminAll.innerHTML = 'Admin'
+        chekAdminAll.setAttribute('href', "./pages/logo.html")
     }
     else{
-        chekAdminAll.innerHTML = 'About'
-        chekAdminAll.setAttribute('href', "./pages/About.html")
+        chekAdminAll.innerHTML = 'Sain up'
+        chekAdminAll.setAttribute('href', "./pages/logo.html")
 
     }
 }

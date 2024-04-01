@@ -9,7 +9,7 @@ let isLogin = localStorage.getItem('token')
 
 function submit(){
     if( !isLogin ){
-        window.location.reload("/pages/About.html")
+        window.location.reload("/pages/logo.html")
     }
 
 }

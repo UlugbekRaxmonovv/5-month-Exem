@@ -28,9 +28,10 @@ form.addEventListener('submit' , async (e) =>{
    .then(ris =>{
     console.log(ris.token)
     localStorage.setItem('token',ris.token)
-    window.open("/pages/SignUp.html","_self")
+    window.open("../pages/admin.html","_self")
 })
    .catch(()=> {
     h1.style.display = 'block'
    })
 })
+

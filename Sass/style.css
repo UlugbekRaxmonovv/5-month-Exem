@@ -1270,16 +1270,16 @@ footer .tixit h3 {
 .HeroSection .HeroSection-all span {
   color: red;
 }
-.HeroSection .HeroSection-all .hiro {
+.HeroSection .HeroSection-all .hirow {
   display: flex;
   gap: 10px;
   align-items: center;
   padding: 40px 0;
 }
-.HeroSection .HeroSection-all .hiro .HeroSection-list a {
+.HeroSection .HeroSection-all .hirow .HeroSection-list a {
   color: gray;
 }
-.HeroSection .HeroSection-all .hiro .HeroSection-list .box {
+.HeroSection .HeroSection-all .hirow .HeroSection-list .box {
   color: black;
 }
 .HeroSection .hammasi {

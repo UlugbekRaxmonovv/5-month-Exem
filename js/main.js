@@ -123,3 +123,22 @@ Creat.addEventListener('click', (e) =>{
         CreatAll(id)
     };
 })
+
+
+// chek-Admin
+
+const chekAdminAll =document.querySelector('.chek-Admin')
+function chekAdmin(){
+    let isLogin = localStorage.getItem('token')
+    if(isLogin){
+        chekAdminAll.innerHTML = 'Sign Up'
+        chekAdminAll.setAttribute('href', "./pages/SignUp.html")
+    }
+    else{
+        chekAdminAll.innerHTML = 'About'
+        chekAdminAll.setAttribute('href', "./pages/About.html")
+
+    }
+}
+chekAdmin()
+

@@ -2879,7 +2879,7 @@ text-align: center;
 
             }
             .pr-1{
-                max-width: 350px;
+                max-width: 320px;
                 width: 100%;
                 height: 100px;
                 padding: 10px 0px;
@@ -2896,6 +2896,7 @@ text-align: center;
                 justify-content: center;
                 gap: 20px;
                 padding: 20px 0;
+
             .kontainir{
                 display: flex;
                 align-items: center;
@@ -2904,7 +2905,7 @@ text-align: center;
                 padding: 10px 0;
             }
             .hiro{
-                max-width: 350px;
+                max-width: 250px;
                 width: 100%;
                 height: 200px;
                 .hiro-nav{

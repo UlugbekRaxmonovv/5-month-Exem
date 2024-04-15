@@ -6,6 +6,18 @@ Menu.addEventListener("click", ()=>{
     navbar.classList.toggle('show')
 })
 
+// light-dark
+let modeBtn = document.getElementById("light-dark");
+
+modeBtn.addEventListener("click", function () {
+  document.body.classList.toggle("dark");
+});
+
+
+window.addEventListener('scroll', function () {
+  toggleBacktop();
+});
+
 
 
 // backtop///////
@@ -37,7 +49,11 @@ async function good(api){
     let data = await fetch(api)
     data
     .json()
-    .then(ris=> card(ris))
+    .then(ris=> {
+        card(ris)
+        // createCategory(ris)
+
+    })
     .catch(arr => console.log(arr))
     .finally(()=>{
         loading.style.display = "none"  
@@ -46,9 +62,10 @@ async function good(api){
 good(Api_Url)
 
 
+
 function card(son){
     let fragmit = document.createDocumentFragment()
-    son.products.slice(0,8).forEach(el =>{
+    son.products.slice(0,28).forEach(el =>{
         // console.log(el);
         const card = document.createElement('div')
         card.classList.add('all-list')
@@ -62,7 +79,7 @@ function card(son){
                        </div>
                        <div class="Creatcard-all">
                         <div class="all">
-                            <img src="./img/Fill Heart.png" alt="">
+                            <img  name="product-heart" src="./img/Fill Heart.png" alt="">
                             
                            </div>
                            <div class="all">
@@ -117,11 +134,30 @@ const CreatAll=(id)=>{
 
 }
 
+
+const  sitWishis=async(id)=>{
+    let data = await fetch(`${Api_Url}/${id}`)
+    data
+    .json()
+    .then(ris=> {
+     let wishis = JSON.parse(localStorage.getItem('wishis')) || []
+     let inx = wishis.findIndex(el => el.id === +id )
+     if(inx < 0){
+        localStorage.setItem('wishis',JSON.stringify([...wishis,ris]))
+     }
+
+    })
+    .catch(arr => console.log(arr))
+}
 Creat.addEventListener('click', (e) =>{
-    if(e.target.name = 'product-image'){
+    let {name} = e.target
+    if(name === 'product-image'){
         let id = e.target.closest("[data-id]").dataset.id
         CreatAll(id)
-    };
+    }else if(name === 'product-heart' ){
+        let id = e.target.closest("[data-id]").dataset.id
+        sitWishis(id);
+    }
 })
 
 
@@ -142,3 +178,45 @@ function chekAdmin(){
 }
 chekAdmin()
 
+
+// category
+
+// const category = document.querySelector('.category')
+// function createCategory(data){
+//     let categorys = Array.from(new Set(data.map(el => el.category)))
+//     categorys.forEach((el) =>{
+//         console.log(el);
+//         let option =document.createElement('option')
+//         option.innerHTML = el
+//         option.setAttribute('value',el)
+//         category.appendChild(option)
+//     })
+// }
+
+
+// const category = document.querySelector('.category')
+
+// function createCategory(data){
+//     let categories = Array.from(new Set(data.map(el => el.category)))
+//     categories.forEach((el) =>{
+//         let option = document.createElement('option')
+//         option.innerHTML = el
+//         option.setAttribute('value', el)
+//         category.appendChild(option)
+//     })
+// }
+
+// category.addEventListener('change',async(e)=>{
+//     let value =e.target.value
+//     let data = await fetch(`${Api_Url}/category/${value}`)
+//     data
+//     .json()
+//     .then(ris=> {
+//         card(ris)
+
+//     })
+//     .catch(arr => console.log(arr))
+//     .finally(()=>{
+//         loading.style.display = "none"  
+//     })
+// })
